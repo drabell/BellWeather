@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorSecondary">#eaeaea</color>
+    <color name="colorTertiary">#578bfa</color>
+
+    <!-- readings -->
+    <color name="colorResults">#101010</color>
+
+    <!-- URL in menu -->
+    <color name="colorUrlLight">#0080ff</color>
+
+    <!--List divider color -->
+    <color name="colorDivider">#c0c0c0</color>
+
+
+</resources>

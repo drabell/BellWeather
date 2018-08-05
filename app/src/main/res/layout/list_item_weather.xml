@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView android:id="@+id/wDates"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="@dimen/lst_weather_item_height"
+        android:textSize="@dimen/lst_weather_date_size"/>
+
+    <TextView android:id="@+id/wConditions"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="@dimen/lst_weather_item_height"
+        android:textSize="@dimen/lst_weather_cond_size"/>
+
+    <TextView android:id="@+id/wTemp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="right"
+        android:gravity="center_vertical|end "
+        android:paddingEnd="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="@dimen/lst_weather_item_height"
+        android:textSize="@dimen/lst_weather_temp_size"/>
+</LinearLayout>

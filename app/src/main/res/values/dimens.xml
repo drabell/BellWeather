@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="search_box_height">30dp</dimen>
+    <dimen name="search_box_text_size">18sp</dimen>
+    <dimen name="search_button_text_size">14sp</dimen>
+
+    <dimen name="lst_location_item_height">40dp</dimen>
+    <dimen name="lst_location_margin_top">10dp</dimen>
+    <dimen name="lst_location_img_height">30dp</dimen>
+
+    <dimen name="lst_location_text_size">18sp</dimen>
+    <dimen name="lst_location_text_height">40dp</dimen>
+    <dimen name="lst_location_text_small">14sp</dimen>
+
+
+    <dimen name="weather_title_text_size">20sp</dimen>
+    <dimen name="lst_weather_item_height">45dp</dimen>
+    <dimen name="lst_weather_date_size">14sp</dimen>
+    <dimen name="lst_weather_cond_size">15sp</dimen>
+    <dimen name="lst_weather_temp_size">16sp</dimen>
+</resources>

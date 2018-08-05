@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="biz.infosoft.samplevolley.MainActivity">
+
+    <!-- Help: contains link to online Geo-reader to get coordinates of POI-->
+    <item android:id="@+id/mnuHelp"
+        android:orderInCategory="100"
+        android:title="@string/menu_help"
+        app:showAsAction="never"/>
+
+    <!--About: basic info-->
+    <item android:id="@+id/mnuAbout"
+        android:orderInCategory="101"
+        android:title="@string/menu_about"
+        app:showAsAction="never"/>
+</menu>

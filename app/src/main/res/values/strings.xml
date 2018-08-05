@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BellWeather&#174;  5-days Forecast</string>
+    <string name="activity_weather_name">Weather Forecast</string>
+
+    <string name="err">ERROR</string>
+    <string name="action_search">SEARCH</string>
+
+    <string name="action_upd">RESULTS UPDATED</string>
+    <string name="search_empty">SORRY, EMPTY SEARCH</string>
+    <string name="search_too_many">TOO MANY RESULTS: FIRST 10 SHOWN</string>
+
+    <string name="app_mode">APP MODE</string>
+    <string name="app_search_allow">Search Location is ON</string>
+    <string name="app_search_close">Search Location is OFF</string>
+
+    <string name="menu_help">Help</string>
+    <string name="info_help_title">Readme</string>
+    <string name="info_help">The app utilizes www.metaweather.com RESTful web api allowing search for location and weather forecast.\n\n
+        Main screen shows the list of locations and corresponding WOEID (Where On Earth IDentifier).
+        Click on location item in the list to view 6 days forecast.
+        Use floating action button to toggle search functionality on/off and add new locations to the list.\n\n
+        Note: data persistence layer will be implemented in the next release. Contact the author for additional info.\n
+    </string>
+    <string name="author_url">www.alexanderbell.us</string>
+    <string name="company_url">www.infosoft.biz/</string>
+
+    <string name="menu_about">About</string>
+    <string name="info_about_title">About</string>
+    <string name="info_about">"BellWeather 5-days Forecast (V1.01) developed by Dr. Alexander Bell for Demo purpose.\n\nNote: For privacy/security reason, this app does NOT implement GPS device location tracking. Contact the author for additional info.\n
+    </string>
+
+</resources>
