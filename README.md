@@ -63,8 +63,10 @@ The list of Locations can be dynamically modified by adding new search items
 or  removing the existing ones. The list is stored locally using custom DAO persistence objects.
 
 BUG REPORT
-Error discovered regarding the wind speed readings in the NY City on 08/06/2018: 
-the site data shows wind speed as -246mph (?!). The same value is returned by the app.
+Error discovered regarding the wind speed readings in the New York City on 08/06/2018: 
+the site data shows wind speed as -246mph (?!). 
+The same type of error observed in this app: wind speed shown as -553 mph 
+(see the screenshot WindSpeedError).
 Status: TBD
 
 Author's contact info: bell@alexanderbell.us
