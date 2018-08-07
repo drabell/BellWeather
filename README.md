@@ -10,13 +10,20 @@ utilizing Android Volley JSON network requests library.
 LOCATION SEARCH QUERIES SAMPLES
 The end points used for Location search are shown in the follwoing sample web query. 
 By Location name, e.g. 'New York'
+
 https://www.metaweather.com/api/location/search/?query=NEW+YORK
 Corresponding JSON object array:
+
 [{"title":"New York","location_type":"City","woeid":2459115,"latt_long":"40.71455,-74.007118"}]
+
 By Location coordinates (sample Latitude/Longitude corresponding to the New York City):
+
 https://www.metaweather.com/api/location/search/?lattlong=40.712772,-74.006058
+
 The first object in JSON array shows New York as the closest one:
+
 [{"distance":216,"title":"New York","location_type":"City","woeid":2459115,"latt_long":"40.71455,-74.007118"}]
+
 The Location search result retursn unique identifier WOEID (Where On Earth ID), which is
 used to obtain JSON Objects array corresponding to 6-days forecast.
 
