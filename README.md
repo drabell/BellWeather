@@ -28,13 +28,23 @@ The Location search result retursn unique identifier WOEID (Where On Earth ID), 
 used to obtain JSON Objects array corresponding to 6-days forecast.
 
 6-DAYS FORECAST DATA ITEMS
+
 -Location Title
+
 -Date
+
+-Weekday
+
 -Temperature (C or F scale)
+
 -Min Temperature (C or F scale)
+
 -Max Temperature (C or F scale)
+
 -Relative Humidity
+
 -Weather Condition (Rain, Cloud, etc)
+
 -Wind speed (either in m/s or mph)
 
 SAMLPES
