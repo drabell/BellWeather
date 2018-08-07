@@ -4,8 +4,8 @@ Release date: 08/06/2018
 OVERVIEW
 Android app BellWeather developed by Dr. Alexander Bell (NY, USA) 
 enables Location Search and 6-Days Weather Forecast. 
-The app consumes open source RESTful WebAPI data provided by https://www.metaweather.com
-utilizing Android Volley JSON network requests library.
+The app consumes RESTful WebAPI aggregated data provided by https://www.metaweather.com
+utilizing Android Volley JSON network library.
 
 LOCATION SEARCH QUERIES SAMPLES
 The end points used for Location search are shown in the follwoing sample web query. 
