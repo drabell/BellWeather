@@ -1,21 +1,26 @@
-# BellWeather V.1.0.2, Release date: 08/06/2018
+# BellWeather V.1.0.2
+Release date: 08/06/2018
 
 OVERVIEW
 Android app BellWeather developed by Dr. Alexander Bell (NY, USA) 
 enables Location Search and 6-Days Weather Forecast. 
-The app consumes RESTful WebAPI provided utilizing JSON Volley network library.
-The end points used for Location search, either by query or Geo-coordinates:
-https://www.metaweather.com
+The app consumes open source RESTful WebAPI data provided by https://www.metaweather.com
+utilizing Android Volley JSON network requests library.
 
 LOCATION SEARCH QUERIES SAMPLES
-https://www.metaweather.com/api/location/search/?query=NEW YORK
+The end points used for Location search are shown in the follwoing sample web query. 
+By Location name, e.g. 'New York'
+https://www.metaweather.com/api/location/search/?query=NEW+YORK
+Corresponding JSON object array:
+[{"title":"New York","location_type":"City","woeid":2459115,"latt_long":"40.71455,-74.007118"}]
+By Location coordinates (sample Latitude/Longitude corresponding to the New York City):
 https://www.metaweather.com/api/location/search/?lattlong=40.712772,-74.006058
- 
-The search return unique identifier WOEID (Where On Earth ID) 
+The first object in JSON array shows New York as the closest one:
+[{"distance":216,"title":"New York","location_type":"City","woeid":2459115,"latt_long":"40.71455,-74.007118"}]
+The Location search result retursn unique identifier WOEID (Where On Earth ID), which is
 used to obtain JSON Objects array corresponding to 6-days forecast.
 
 6-DAYS FORECAST DATA ITEMS
-Click on Location list to open another window displaying:
 -Location Title
 -Date
 -Temperature (C or F scale)
@@ -24,7 +29,6 @@ Click on Location list to open another window displaying:
 -Relative Humidity
 -Weather Condition (Rain, Cloud, etc)
 -Wind speed (either in m/s or mph)
-The toglle button allows switching between Celsius/Fahrenheit scales
 
 SAMLPES
 For example, London corresponds to woeid = 44418. 
@@ -35,14 +39,25 @@ https://www.metaweather.com/api/location/44418
 Another example obtaing weather forecast for New York City:
 https://www.metaweather.com/api/location/2459115
 
+USAGE
+Click on Location list to open another window displaying 6-days weather forecast
+(note: originally it was limited to 5-days per special project requirements)
+The button in the upper-right corner toggles the reading between Celsius/Fahrenheit scales.
+Temperature reading collor code: red for t>=30C and blue for t<=30.
+
+To add location click on the floating action button at the bottom ob the main screen
+to open the search box. Enter search query and click on search button. 
+Click on the item in results list to add it to permanent storage.
+Use 'long-click" to remove existing list item 
+Refer to the sample screenshot highlighting aforementioned use cases.
+
 LOCATIONS DATA PERSISTENCE LAYER (DAO)
 The list of Locations can be dynamically modified by adding new search items
-or removing existing ones (long-click - refer to the screenshot). 
-The list is stored locally using custom DAO persistence lib.
+or  removing the existing ones. The list is stored locally using custom DAO persistence objects.
 
 BUG REPORT
-Strange error discovered regarding the wind speed in the NY City for 08/06/2018: 
-site data shows wind speed as -246mph (?!). The same value returned by the app.
+Error discovered regarding the wind speed readings in the NY City on 08/06/2018: 
+the site data shows wind speed as -246mph (?!). The same value is returned by the app.
 Status: TBD
 
 Author's contact info: bell@alexanderbell.us
