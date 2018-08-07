@@ -46,6 +46,8 @@ used to obtain JSON Objects array corresponding to 6-days forecast.
 -Weather Condition (Rain, Cloud, etc)
 
 -Wind speed (either in m/s or mph)
+note: wind speed legend: 3 arrows corresponds to speed >=20ms, 
+2 arrows means speed >=10ms, otherwise single-arrow icon shown
 
 SAMLPES
 For example, London corresponds to woeid = 44418. 
