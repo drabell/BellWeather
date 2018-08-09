@@ -76,7 +76,7 @@ or  removing the existing ones. The list is stored locally using custom DAO pers
 
 BUG REPORT
 Error discovered regarding the wind speed readings in the New York City on 08/06/2018: 
-the site data shows wind speed as -246mph (?!). 
+the site data shows wind speed as negative -246. 
 The same type of error observed in this app: wind speed shown as -553 mph 
 (see the screenshot WindSpeedError).
 Status: TBD
